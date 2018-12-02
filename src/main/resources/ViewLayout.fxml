@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" prefHeight="100.0" prefWidth="250.0" style="-fx-background-color: rgba(54,143,179,0.7); -fx-background-radius: 10 10 10 10; -fx-border-radius: 10 10 10 10; -fx-border-color: rgba(54,143,179,.0.0);" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.death.keybroadcaster.ViewController">
+   <children>
+      <HBox spacing="10.0">
+         <children>
+            <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" prefHeight="100.0" prefWidth="150.0" text="Key Broadcaster by Death" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></Label>
+            <ImageView fx:id="imageView" fitHeight="100.0" fitWidth="100.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+   </children>
+</Pane>
